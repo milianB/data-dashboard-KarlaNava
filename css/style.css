@@ -7,8 +7,11 @@ body{
 
 header > img{
   width: 100%;
-
   background: center;
+}
+
+.menu-ciudades{
+  display: inline-block;
 }
 
 .opcion-buttom{
@@ -29,18 +32,67 @@ header > img{
   background-image:
 
 }
-
-#navegacion{
-  border: 2px solid black;
+#laboratoria > img{
+  margin-left: 343px;
 }
 
-#navegacion > input{
-  background: #A0E1F6;
+#navegacion{
+    margin-top: 23px;
+    margin-left: 209px;
+}
+
+#navegacion > img {
+  float: left;
+  margin: -25px 31px -57px -28px;
+  width: 103%;
+  height: 96px;
+}
+
+.buscar{
+  float: left;
+}
+
+.icon-guest{
+  margin: -1px -124px -21px 158px;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.icon-bell-alt{
+    content: '\f0f3';
+    font-size: 27px;
+    margin-left: 61px
+}
+
+.mensajes{
+  margin: 20px 20px 20px 20px;
+}
+
+#laboratoria-data img{
+  margin-left: 380px;
+  margin-top: 23px;
+}
+.icon-logout{
+  font-size: 30px;
+}
+
+.icon-mail{
+  font-size: 30px;
+}
+.notificaciones{
+  margin: -19px 2px -4px 242px;
+  display: inline-block;
+}
+
+
+.buscar .icon{
+  left: 0px;
+}
+
+.buscar input{
+  padding-left: 30px;
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 20px;
-  color: black;
-  border: none;
-  text-align: center;
-  padding: 5px 100px;
-  margin-left: 2px;
+  font-size: 18.5px;
+  height: 19px;
+  width: 296px;
 }
